@@ -13,8 +13,8 @@ const Navigation = () => {
 
       <a href = "#about" onClick={() => setActiveNav('#about')}className={activeNav === '#about' ? 'active' : ''}>🙋‍♂️</a>
 
-      <a href = "#projects"onClick={() => setActiveNav('#projects')} className={activeNav === '#projects' ? 'active' : ''}>⛪️</a>
-      
+      <a href = "#projects"onClick={() => setActiveNav('#projects')} className={activeNav === '#projects' ? 'active' : ''}>📂</a>
+
       <a href = "#contact"onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}>☎</a>
     </nav>
   )

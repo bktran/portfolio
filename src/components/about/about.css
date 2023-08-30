@@ -1,0 +1,21 @@
+.about__me-image {
+  display: block;
+  max-width: 50%; /* makes sure the image scales inside the container */
+  height: auto;
+  border-radius: 12rem; /* curves the image */
+  overflow: hidden;
+  
+}
+
+.about__me {
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: black;
+}
+
+p:hover, img:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* horizontal offset, vertical offset, blur radius, shadow color */
+  transition: box-shadow 0.3s ease; /* smooth transition for the shadow effect */
+}
