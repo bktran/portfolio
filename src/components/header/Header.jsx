@@ -31,7 +31,7 @@ const Header = () => {
         <CTA />
 
         <div className="me">
-          <img src={myImage} alt="me" className="me_img" onClick={changeImg}/>
+          <img src={myImage} alt="me" className="me_img" onClick={() => {changeImg()}}/>
         </div>
 
         <a href="#contact" className="scroll__down"></a>

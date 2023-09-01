@@ -19,3 +19,7 @@ p:hover, img:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* horizontal offset, vertical offset, blur radius, shadow color */
   transition: box-shadow 0.3s ease; /* smooth transition for the shadow effect */
 }
+
+p {
+  color: #E1FAF9;
+}
