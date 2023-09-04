@@ -7,7 +7,7 @@ import {useState} from 'react'
 const About = () => {
 
   return (
-    <section className='about-container'>
+    <section className='about-container' id='about'>
 
       <h5>A Little Bit</h5>
       <h2>About Me</h2>

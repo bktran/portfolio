@@ -1,7 +1,7 @@
 .projects-master-container {
   height: auto;
   width: 100vw;
-  border: 3px solid black;
+  /* border: 3px solid black; */
 }
 
 .projects-container {
@@ -11,28 +11,62 @@
   grid-column-gap: 15px;
   grid-row-gap: 30px;
   justify-items: center;
-
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 .tic-tac-toe-container, .text-based-container, .pig-latin-container, .combat-bot-container {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   display: grid;
   grid-template-rows: 1fr auto;
   justify-items: center;
   align-items: center;
+  text-align: center;
   
 }
 
 
-#ttt-img{
+#ttt-img {
   width: 60%;
   height: auto;
-}
-
-.projects-master-container img{
 
 }
+
+.projects-master-container h3{
+  background: transparent;
+  backdrop-filter: blur(30px);
+  color: var(--color-primary)
+  &:hover{
+    color: var(--color-light)
+  }
+}
+
+#pigLatin-img {
+  width: 70%;
+  height: auto;
+  margin-bottom: 7%;
+}
+
+#text-based-img {
+  width: 70%;
+  height: auto;
+  margin-bottom: 7%;
+}
+
+#combat-bot-img {
+  width: 70%;
+  height: auto;
+  margin-bottom: 80%;
+}
+
+
+.projects-master-container img {
+  margin: auto;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
 
 /* ===========non-desktop================= */
 
@@ -43,3 +77,4 @@
   }
   
 }
+

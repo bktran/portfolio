@@ -3,7 +3,11 @@ import './footer.css'
 
 const Foooter = () => {
   return (
-    <div>Foooter</div>
+    <div>
+
+      <h5>Created by Bao Khanh Tran 2023</h5>
+
+    </div>
   )
 }
 
