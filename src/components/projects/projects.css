@@ -34,11 +34,13 @@
 .projects-master-container h3{
   background: transparent;
   backdrop-filter: blur(30px);
-  color: var(--color-primary)
+  color: var(--color-primary);
+
   &:hover{
     color: var(--color-light)
   }
 }
+
 
 #pigLatin-img {
   width: 70%;
