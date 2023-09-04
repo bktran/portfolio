@@ -10,7 +10,8 @@ import Foooter from './components/footer/Foooter'
 const App = () => {
   return (
     <>
-      <div className='master_container'>
+      <div className='master-container'>
+        <div className='under-const'>🦺Portfolio Under Construction🦺</div>
         <Header />
         <Navigation />
         <About />

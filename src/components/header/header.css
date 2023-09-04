@@ -1,18 +1,24 @@
 header {
-  height: 90vh;
-  padding-top: 3rem;
+  height: 100vh;
+  padding-top: 1.4rem;
   overflow: hidden;
 }
 
 .header__container {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  height: 80%;
+  height: 100%;
+  width: 100vw;
   position: relative;
+  align-items: center;
+  overflow: hidden;
 }
+
 
 /* ====== CTA =======*/
 .cta {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   display:flex;
   gap: 1rem;
   justify-content: center;
@@ -20,13 +26,22 @@ header {
 
 /* ====== Header Socials =======*/
 .header__socials {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
   /* gap: 0.8rem;
   position: absolute;
   left: 0;
   bottom: 3rem; */
+  margin-top: 1rem;
+}
+
+#linkedin:hover {
+  color: darkblue;
+}
+
+#github:hover{
+  color: black;
 }
 
 /* .header__socials::after {
@@ -47,17 +62,32 @@ header {
   /* margin-top: 2rem; */
   /* border-radius: 12rem 12rem 0 0; */
   /* padding: 0.5rem 1.5rem 1.5rem 1.5rem; */
-  margin: 1rem auto;
-  width: 430px;
-  height: 430px;
+  display: flex;
+  margin: 1.4rem auto;
+  width: 390px;
+  height: 450px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .me_img {
-  display: block;
   max-width: 100%; /* makes sure the image scales inside the container */
   max-height: 100%;
-  border-radius: 5rem 5rem 5rem 5rem; /* curves the image */
+  border-radius: 7rem;
   overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.picNav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active-dot {
+  color: var(--color-light)
 }
 
 /* ====== Scrolldown =======*/
@@ -73,27 +103,12 @@ header {
 /* ====== Med screen =======*/
 
 @media screen and (max-width: 1024px) {
-  .container {
-    /* background: red; */
-  }
-
-  header {
-    height: 100vh;
-  }
-}
-/* ====== Small Screen =======*/
-
-@media screen and (max-width: 600px) {
-  .container {
-    /* background: green; */
-  }
-
-  header {
-    height: 85vh;
-  }
-
-  .header__socials, .scroll__down {
-    display: none;
-    
+  .me_img {
+    max-width: 90%; /* makes sure the image scales inside the container */
+    height: auto%;
+    border-radius: 4rem;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
   }
 }

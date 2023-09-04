@@ -25,11 +25,12 @@ nav a {
 
 nav a:hover {
   background: var(--color-light);
+  opacity: .55;
   border-radius: 12rem 12rem 12rem 12rem;
 }
 
 nav a.active {
-  background: rgba(202, 202, 130, 0.377);
+  background: rgba(202, 202, 189, 0.377);
   border-radius: 12rem 12rem 12rem 12rem;
   color: var(--color-white);
 }

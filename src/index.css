@@ -10,9 +10,20 @@
   text-decoration: none;
 }
 
-/* .master_container {
+.under-const {
+  width: max-content;
+  height: auto;
+  position: fixed;
+  border-top: 1px dashed white;
+  border-bottom: 1px dashed white;
+  z-index: 2;
+}
+
+.master-container {
+  display: flex;
+  flex-direction: column;
   position: relative;
-} */
+}
 
 body {
   margin: 0;
@@ -35,7 +46,7 @@ code {
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.776);
+  --color-light: #cbeffb;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -52,11 +63,11 @@ html {
   display: none;
 }
 
-/*=====Gnereal Styles=====*/
+/*=====Genreal Styles=====*/
 
 .container {
-  width: var(--container-width-lg);
-  margin: 0 auto;
+  width: var(--container-width-sm);
+  /* margin: 0 auto; */
 }
 
 h1,
@@ -85,7 +96,7 @@ section > h2, section > h5 {
 
 section > h2 {
   color: var(--color-primary);
-  margin-bottom : 3rem;
+  margin-bottom : 1.5rem;
 }
 
 /* .text-light {
@@ -133,27 +144,4 @@ img {
   object-fit: cover;
 }
 
-/* ========MEDIA---Med devices --tablets =====*/
-
-@media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-
-  section {
-    /* margin-top: 8rem; */
-  }
-}
-
-/* ========MEDIA---small devices --phones=====*/
-
-@media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sm);
-  }
-
-  section > h2 {
-    /* margin-top: 2rem; */
-  }
-}
 
