@@ -42,9 +42,11 @@ form > input{
   border: 1px solid var(--color-primary);
   transition: var(--transition);
 
-  &:hover {
+}
+
+.contact-container button:hover {
   background: var(--color-white);
   color: var(--color-bg);
   border-color: transparent;
-  }
+  
 }
