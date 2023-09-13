@@ -14,7 +14,7 @@
   /* border: 2px solid blue; */
 }
 
-.tic-tac-toe-container, .text-based-container, .pig-latin-container, .combat-bot-container {
+.tic-tac-toe-container, .text-based-container, .pig-latin-container, .pokemon-tinder-container {
   /* border: 1px solid yellow; */
   display: grid;
   grid-template-rows: 1fr auto;
@@ -54,10 +54,10 @@
   margin-bottom: 7%;
 }
 
-#combat-bot-img {
+#pokemon-tinder-img {
   width: 70%;
   height: auto;
-  margin-bottom: 80%;
+  margin-bottom: 7%;
 }
 
 

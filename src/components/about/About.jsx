@@ -22,7 +22,7 @@ const About = () => {
         <div className="about-text-container">
           <div className='about-text'>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Hi, I'm Bao. After serving 6 years in the US Navy as a Nuclear Operator, I pursued Computer Science degree and transitioned into Full Stack Development. I have been developing skills in HTML/CSS/JavaScript, ReactJS, Ruby on Rails, and PostgreSQL to develope different apps. With a foundation in the Navy's precision and discipline, combined with my tech skills, I am committed to creating impactful and efficient web applications.
             </p>
           </div>
         </div>
